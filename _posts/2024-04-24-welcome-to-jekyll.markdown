@@ -8,11 +8,11 @@ categories: jekyll update
 # Cloud_Blog_21BCP273
 
 
-<h1>Name : Kashish Parmar </h1>
+Name : Kashish Parmar 
 
-<h1>Roll Number : 21BCP273</h1>
+Roll Number : 21BCP273
 
-<h1>Cloud IA2</h1>
+Cloud IA2
 
 ## Introduction
 In this tutorial, we'll explore how to Dockerize a Node.js server and a MySQL database, and push them to Docker Hub. Containerization has become a crucial aspect of modern software development, offering benefits like consistency, scalability, and portability. Docker, a popular containerization platform, simplifies the process of packaging and deploying applications. We'll cover the following steps in this tutorial:
