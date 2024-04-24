@@ -31,17 +31,17 @@ Before getting started, ensure you have the following installed:
 - Docker: [Download and install Docker](https://www.docker.com/get-started) for your operating system.
 
 # cloud.github.io
-<hr />
 
 
 
-<h3>Project Overview</h3>
+
+Project Overview
 This project contains a login form and an additional form for adding products. Each component of the application (frontend, backend, MySQL database) is containerized using Docker. The necessary Dockerfiles and Docker Compose configuration are provided in this repository.
 
-<h3>Prerequisites</h3>
+Prerequisites
 Make sure you have Docker installed on your system. You can download and install Docker from here.
 
-<h3>Getting Started</h3>
+Getting Started
 1.To get started with this project, follow these steps:
   git clone https://github.com/kashishparmar02/demoproject
   
@@ -57,21 +57,19 @@ Make sure you have Docker installed on your system. You can download and install
 ```docker compose --build```
 
 
-<h3>1. Project Download:</h3>
-   - Download a project containing both frontend and backend code with a MySQL database. For example, a project with a simple form frontend, a Flask backend, and MySQL database.
+1. Project Download:   - Download a project containing both frontend and backend code with a MySQL database. For example, a project with a simple form frontend, a Flask backend, and MySQL database.
 
-<h3>2. Making Dockerfile:</h3>
+2. Making Dockerfile:
    - Write Dockerfiles for frontend, backend, and database.
    - Each Dockerfile should define the necessary environment and dependencies for the respective component.
    - Ensure that the Dockerfiles correctly set up the container environment for running the frontend, backend, and database components.
 
-<h3>3. DockerHub Repository:</h3>
+3. DockerHub Repository:
    - Create a new repository on Docker Hub where you will push your Docker images.
    - Log in to Docker Hub if you haven't already.
-   ![image](https://github.com/kashishparmar02/finalblog/assets/96052450/70e69320-22fe-4f1d-ab0b-9b3f57210adc)
 
 
-<h3>4. Creating Images and Containers:</h3>
+4. Creating Images and Containers:
    - Build the Docker images for frontend, backend, and database:
      
      docker build -t username/Reponame .
@@ -83,14 +81,14 @@ Make sure you have Docker installed on your system. You can download and install
     
 
 
-<h3>5. Log in to Docker Hub:</h3>
+5. Log in to Docker Hub:
    - Log in to Docker Hub using the following command:
      
      docker login
     
    - Enter your Docker Hub username and password when prompted.
 
-<h3>6. Push the Images and Containers:</h3>
+6. Push the Images and Containers:
    - Push your Docker images to Docker Hub using the following command:
    
      docker push username/Reponame
